@@ -1,0 +1,19 @@
+.app-shell {
+  min-height: 100svh;
+  background: #f8fafc;
+}
+
+.resource-page {
+  text-align: left;
+}
+
+.resource-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.resource-meta {
+  color: #64748b;
+  font-size: 0.95rem;
+}
