@@ -1,4 +1,19 @@
-# React + Vite
+# OctoFit Tracker Frontend
+
+## API configuration
+
+The presentation tier uses Vite environment variables through `import.meta.env`.
+When running in Codespaces, define `VITE_CODESPACE_NAME` in `.env.local` so API
+requests target the forwarded backend URL:
+
+```bash
+VITE_CODESPACE_NAME=your-codespace-name
+```
+
+If `VITE_CODESPACE_NAME` is unset, the frontend safely falls back to
+`http://localhost:8000` for local development.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
